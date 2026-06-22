@@ -1,0 +1,6 @@
+-- ЗАДАНИЕ 3. Анализ типов данных
+-- Просмотр типов данных всех столбцов таблиц
+SELECT TABLE_NAME, COLUMN_NAME, COLUMN_TYPE, IS_NULLABLE, COLUMN_KEY
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_SCHEMA = 'world'
+ORDER BY TABLE_NAME, ORDINAL_POSITION;
