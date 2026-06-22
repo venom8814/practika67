@@ -14,7 +14,6 @@
     task4_integrity.sql   — проверка целостности данных
     task5_research.sql    — исследование данных (подсчёты, группировки, максимум)
 
-/qr_repo.png  — QR-код для приложения А.
 
 Ключевые результаты:
   - Таблиц в БД: 3 (city, country, countrylanguage)
